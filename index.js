@@ -18,7 +18,7 @@ function nowServing(katzDeliLine) {
       return "The line is currently empty."
     }
     for (var i = 0; i < line.length; i++) {
-      lineNum.push(`${i+1}. ${line[i]}`)
+      lineNum.push(` ${i+1}. ${line[i]}`)
   	}
-    return `The line is currently: ${lineNum}`
+    return `The line is currently:${lineNum}`
    }
